@@ -1,0 +1,70 @@
+.main-container {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(darkblue, lightblue);
+}
+
+.banner {
+  font-family: "Aclonica", sans-serif;
+  font-size: 50px;
+  padding: 20px;
+}
+
+.desc {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px;
+}
+
+.ipcs {
+  background-image: url("/assets/images/crystalhome.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-title-style {
+  background-color: darkblue;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.card-text-lo {
+  text-align: center;
+  font-family: "Aclonica", sans-serif;
+  color: black;
+  background-color: white;
+  font-size: 50px;
+  border-radius: 20px;
+}
+
+/* .body-shape {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background-color: blue;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 20px;
+} */
+.pix-shape {
+  border-style: solid;
+  border-color: white;
+  border-radius: 20px;
+}
+.card-style {
+  width: 12rem;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.comp-design {
+  border-style: solid;
+  border-color: white;
+  border-radius: 20px;
+  background-color: blue;
+  color: white;
+}

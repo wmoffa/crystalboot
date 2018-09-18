@@ -1,0 +1,120 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css">
+    <title>Crystal Game</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class='container'>
+
+            <div class="jumbotron ipcs">
+                <h1 class="banner comp-design display-4">
+                    <center>Crystal Collector</center>
+                </h1>
+                <br>
+                <p class='desc comp-design'>You will be given a random number at the start of the game.
+                    <br> There a four crystals below. By clicking on a crystal you will; add a specific amount of points to your
+                    total score.
+                    <br> You win the game by matching your score with the random number.
+                    <br> You lose the gane if your score is higher than the random number. The value of each crystal is hidden
+                    from you until you click on it to find its value.
+                    <br> Each time the game restarts, the game will change the value of each crystal.
+                </p>
+            </div>
+
+            <!-- this row contains the targe and the current score -->
+            <div class="row">
+                <div class="card card-style comp-design">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <center>Target Score</center>
+                        </h5>
+                        <p class="card-text">
+                            <div id="targetScore" class="card-text-lo"></div>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card card-style comp-design ">
+                    <div class="card-body ">
+                        <h5 class="card-title ">
+                            <center>Current Score</center>
+                        </h5>
+                        <p class="card-text"></p>
+                        <div id="currentScore" class="card-text-lo">
+                        </div>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- this row contains the crystals -->
+            <div class="row ">
+                <div class="card card-style pix-shape ">
+                    <div id="crystal0">
+                    </div>
+                </div>
+                <div class="card card-style pix-shape ">
+                    <div id="crystal1">
+                    </div>
+                </div>
+                <div class="card card-style pix-shape ">
+                    <div id="crystal2">
+                    </div>
+                </div>
+                <div class="card card-style pix-shape ">
+                    <div id="crystal3">
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- this row contains the won lost information -->
+            <div class="row ">
+                <div class="card card-style comp-design ">
+                    <div class="card-body ">
+                        <h5 class="card-title ">
+                            <center>Games Won</center>
+                        </h5>
+                        <p class="card-text">
+                            <div id="gamesWon" class="card-text-lo"></div>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card card-style comp-design ">
+                    <div class="card-body ">
+                        <h5 class="card-title ">
+                            <center>Games Lost</center>
+                        </h5>
+                        <p class="card-text">
+                            <div id="gamesLost" class="card-text-lo"></div>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="class">
+                <button id="reset-button" type="button" class="btn btn-primary">Restart Game</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/js/bootstrap.min.js "></script>
+    <script type="text/javascript " src="assets/javascript/game.js "></script>
+</body>
+
+</html>
